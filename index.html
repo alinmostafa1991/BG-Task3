@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <title>Task3_1-Ali_Mostafa</title>
+</head>
+<body>
+    <!-- Header : Statrt................... -->
+    <header>
+        <nav>
+            <h3>Ali Mostafa</h3>
+            <ul class="Menu">
+                <li><a href="#Portfolio">PORTFOLIO</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#Contact-Me">CONTACT</a></li>
+            </ul>
+            <button class="Show-Menu" id="Show" onclick="showorhide()"><i class="fa-solid fa-bars fa-xl"></i></button>
+            <div class="Mobile-off" id="List">
+                <ul class="Mobile-Menu">
+                    <li><a href="#Portfolio">PORTFOLIO</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="#Contact-Me">CONTACT</a></li>
+                </ul>
+                <button class="Exit-Menu" id="Hide" onclick="showorhide()">Exit</button>
+            </div>
+        </nav>
+        <section class="Hero">
+            <div class="ProfilePicture"><img src="./assets/images/Profile.png" alt="Profile Picture"></div>
+            <h1>Ali Mostafa</h1>
+            <div class="Space">
+                <i class="fa-solid fa-star fa-lg" style="color: #ffffff;"></i>
+            </div>
+            <p>Telecommunications Engineer - Front End Web Developer</p>
+        </section>
+    </header>
+    <!-- Header : End...................... 
+    .
+    .
+    main : Statrt...................... -->
+    <main>
+        <section class="Portfolio" id="Portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="Black-Space">
+                <i class="fa-solid fa-star fa-lg" style="color: black;"></i>
+            </div>
+            <div class="Container">
+                <div class="content content1"><img src="./assets/images/HTML.png" alt="HTML Photo"></div>
+                <div class="content content2"><img src="./assets/images/CSS.png" alt="CSS Photo"></div>
+                <div class="content content3"><img src="./assets/images/JS.png" alt="JS Photo"></div>
+                <div class="content content4"><img src="./assets/images/React JS.jpg" alt="React Photo"></div>
+                <div class="content content5"><img src="./assets/images/Bootstrap.jpg" alt="Bootstrap Photo"></div>
+                <div class="content content6"><img src="./assets/images/C++.jpg" alt="C++ Photo"></div>
+            </div>
+        </section>
+        <section class="About" id="About">
+            <h2>ABOUT</h2>
+            <div class="Space">
+                <i class="fa-solid fa-star fa-lg" style="color: #ffffff;"></i>
+            </div>
+            <div class="Details">
+                <div>
+                    <p>Telecommunications Engineer</p>
+                    <p>Graduate of Al-Baath University</p>
+                    <p>Homs, Syria</p>
+                </div>
+                <div>
+                    <p>I learned the basics of web development at Focal X Academy and I am still continuing my training there.</p>
+                </div>
+            </div>
+            <button><i class="fa-solid fa-download fa-s" style="color: #ffffff;"></i>Free Download!</button>
+        </section>
+        <section class="Contact-Me" id="Contact-Me">
+            <h2>CONTACT ME</h2>
+            <div class="Black-Space">
+                <i class="fa-solid fa-star fa-lg" style="color: black;"></i>
+            </div>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email address">
+            <input type="tel" placeholder="Phone Number">
+            <textarea name="Message" id="" placeholder="Message"></textarea>
+            <div class="btContainer">
+                <button>Send</button>
+            </div>
+        </section>
+    </main>
+    <!-- main : End...................... 
+    .
+    .
+    footer : Statrt...................... -->
+    <footer>
+        <div class="Contact-Info">
+            <div class="Container">
+                <h3>LOCATION</h3>
+                <p>Alzahraah,Homs,Syria</p>
+            </div>
+            <div class="Container">
+                <h3>AROUND THE WEB</h3>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=61564106365290"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+                    <a href="https://x.com/alinmostafa1991"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                    <a href="https://www.linkedin.com/in/ali-n-mostafa-704820321"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <div class="Container">
+                <h3>ABOUT FREELANCER</h3>
+                <p>Freelancer is a free to use, MIT licensed Bootstrap theme created by <a href="https://startbootstrap.com/">Start Bootstrap</a>.</p>
+            </div>
+        </div>
+        <div class="Copyright">
+            <p>Copyright © Your Website 2024</p>
+        </div>
+    </footer>
+    <!-- footer : End...................... -->
+
+
+    <script src="./js.js"></script>
+</body>
+</html>
